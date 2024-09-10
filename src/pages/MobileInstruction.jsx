@@ -17,9 +17,7 @@ const MobileInstruction = () => {
     <div>
       <SidebarMenu drawerOpen={drawerOpen} toggleDrawer={toggleDrawer} />
       <Container sx={{ paddingTop: 4 }}>
-        <Typography variant="h1" gutterBottom>
-          Інструкція:
-        </Typography>
+        
         <Typography variant="body1" paragraph>
           <strong>Додати сайт на головний екран Android:</strong>
           <ol>
